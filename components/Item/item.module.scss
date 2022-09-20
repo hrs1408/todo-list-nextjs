@@ -1,0 +1,59 @@
+.todo-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  .todo-item__left {
+    .todo-item__text {
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  .todo-item__right {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+
+    .btn__edit {
+      background-color: #f0f0f0;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .btn__done {
+      background-color: green;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .btn__delete {
+      background-color: red;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
